@@ -5,16 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalie.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <nav class="navigation">
+        <div class="first__block">
             <div class="container">
-                <div class="header__content"> 
+                <nav class="navigation"></nav>
+                <div class="header__content">
                     <a href="index.html">
                         <img src="img/logo.svg" class="logo" alt="logo">
                     </a>
@@ -23,37 +25,72 @@
                             <span class="icon__bars"></span>
                         </div>
                         <ul class="menu">
-                            <li>
-                                <a href="index.html">HOME</a>
+                            <li class="menu__list">
+                                <a class="menu__link-active" href="index.html">HOME</a>
                             </li>
-                            <li>
-                                <a href="products.html">PRODUCTS</a>
+                            <li class="menu__list">
+                                <a class="menu__link" href="products.html">PRODUCTS</a>
                             </li>
-                            <li>
-                                <a href="work.html">HISTORY</a>
+                            <li class="menu__list">
+                                <a class="menu__link" href="work.html">HISTORY</a>
                             </li>
-                            <li>
-                                <a href="aftercare.html">SHOWROOM</a>
+                            <li class="menu__list">
+                                <a class="menu__link" href="aftercare.html">SHOWROOM</a>
                             </li>
-                            <li>
-                                <a href="contact.html">CONTACT</a>
+                            <li class="menu__list">
+                                <a class="menu__link" href="contact.html">CONTACT</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-            <div class="test">
-                <p>Trending</p>
+                </nav>
+                <div class="slider__content">
+                    <p class="color__text green">Trending</p>
+                    <h2 class="largest__text">Fishnet Chair</h2>
+                    <p class="regular__text">
+                        Seat and back with upholstery made of cold cure foam. Steel frame, available in matt
+                        powder-coated black
+                        or highly polished chrome.
+                    </p>
+                    <a href="" class="btn">Order Us</a>
+                    </p>
+                    <div class="paginations">
+                        <a href="" class="circle"></a>
+                        <a href="" class="circle circle__active"></a>
+                        <a href="" class="circle"></a>
+                    </div>
+                </div>
 
             </div>
-            </div>
-        </nav>
-
-
+        </div>
     </header>
 
     <body>
-        <div class="container">
+        <div class="second__block">
+            <div class="container">
+                <div class="second__block-top">
+                    <h3 class="small__title">Featured</h3>
+                    <h3 class="small__title">New</h3>
+                    <a href="" class="right__btn">explore all</a>
+                </div>
+                <div class="second__block-content">
+                    <div class="cube">
+                        <a href="#" class="small__btn"></a>
+                        <p>Fishnet Chair</p>
+                        <p>Seat and back with upholstery made of cold cure foam
+                            . Steel frame, available in matt powder-coated black
+                             or highly polished chrome.</p>
+                    </div>
+                    <img src="img/product-1@3x.jpg" alt="">
+                    <img src="img/product-2@3x.jpg" alt="">
+                    <img src="img/product-3@3x.jpg" alt="">
+                    <img src="img/product-4@3x.jpg" alt="">
+                </div>
+               
+                
 
+
+            </div>
         </div>
     </body>
     <footer>
