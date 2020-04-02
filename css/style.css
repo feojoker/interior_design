@@ -163,6 +163,7 @@ h3 {
     width: 9px;
     height: 13px;
     object-fit: contain;
+    padding-left: 22px;
 }
 
 .paginations {
@@ -207,10 +208,6 @@ h3 {
     font-family: Montserrat;
     font-size: 36px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
     text-align: left;
     color: #212121;
     padding-left: 9px;
@@ -330,9 +327,11 @@ h3 {
     line-height: 24px;
     text-align: left;
     color: #6c6c6c;
+    margin-top: 24px;
+    margin-bottom: 34px;
 }
 
-.flex {
+.third__block {
     display: flex;
     justify-content: center;
 }
@@ -345,6 +344,8 @@ h3 {
     position: relative;
     display: inline-block;
     width: 683px;
+    padding-top: 228px;
+    padding-left: 50px;
 }
 
 .second__chair {
@@ -355,9 +356,106 @@ h3 {
     position: relative;
     display: inline-block;
     width: 683px;
+    padding-top: 228px;
+    padding-left: 50px;
 }
 
-.chairs__content {
-    margin-top: 228px;
-    margin-left: 50px;
+
+.chair__title {
+    font-family: Montserrat;
+    font-size: 36px;
+    line-height: 28px;
+    font-weight: bold;
+    text-align: left;
+    color: #212121;
+}
+
+
+.fourth__block {
+    padding: 120px 0px 90px;
+    background-color: #ffffff;
+}
+
+.trending__title {
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    color: #212121;
+    padding-left: 9px;
+    padding-right: 20px;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxes_1 {
+    width: 370px;
+    height: 370px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.fifth__block {
+    padding: 63px 0px 19px;
+    background-color: #f0e2e2;
+    background-image: url("../img/slider.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.sixth__block {
+    padding: 120px 0px 120px;
+    background-color: #f0e2e2;
+    
+}
+
+.pillow__text {
+    /* background-image: url("../img/product-1-lg.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 570px;
+    display: inline-block;
+    width: 570px;
+    padding-top: 186px;
+    padding-left: 31px;
+    margin-right: 30px;
+}
+
+.near__pillow {
+    display: inline-block;
+}
+.test {
+    display: flex;
+    margin: -15px;
+    overflow: auto;
+    flex-wrap: wrap;
+}
+
+.test__child {
+    padding: 15px;
+    flex: 1 0 50%;
+    
+}
+.test__child2 {
+    padding: 15px;
+    flex: 1 0 25%;
+}
+
+.plw {
+    width: 570px;
+    height: 570px;
+}
+
+.plw__color {
+    background-color: orange;
+}
+
+.plw__small {
+    width: 270px;
+    height: 270px;
 }
