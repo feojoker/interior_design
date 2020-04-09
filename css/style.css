@@ -12,11 +12,11 @@ body {
 a {
     text-decoration: none !important;
     display: inline-block;
-    color: coral;
+    color: #212121;
 }
 
 a:hover {
-    color: coral !important;
+    color: #212121;
 }
 
 ul,
@@ -141,13 +141,17 @@ h3 {
     margin-top: 20px;
 }
 
-
-.btn {
+.btn__body {
     width: 212px;
     height: 45px;
     border-radius: 22.5px;
     box-shadow: 0px 2px 4.9px 0.2px rgba(33, 33, 33, 0.35);
     background-color: #ffffff;
+    padding-top: 10px;
+    margin-bottom: 141px;
+}
+
+.btn {
     font-family: "Montserrat";
     font-size: 18px;
     font-weight: bold;
@@ -156,8 +160,7 @@ h3 {
     text-align: center;
     color: #212121;
     text-transform: uppercase;
-    padding-top: 10px;
-    margin-bottom: 141px;
+    margin-left: 25px;
 }
 
 .btn:after {
@@ -166,6 +169,10 @@ h3 {
     height: 13px;
     object-fit: contain;
     padding-left: 22px;
+}
+
+.btn:hover {
+    filter: invert(72%) sepia(25%) saturate(6420%) hue-rotate(326deg) brightness(102%) contrast(102%);
 }
 
 .paginations {
@@ -211,7 +218,6 @@ h3 {
     font-size: 36px;
     font-weight: bold;
     text-align: left;
-    color: #212121;
     padding-left: 9px;
     padding-right: 20px;
     border-bottom: 3px solid #212121;
@@ -222,23 +228,23 @@ h3 {
     font-family: Montserrat;
     font-size: 36px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
     color: #6c6c6c;
+    text-align: left;
     margin-left: -4px;
     border-bottom: 1px solid #6c6c6c;
-    padding-bottom: 0px 22px 2px 11px;
+    padding: 0px 22px 2px 11px;
 }
+
+.small__title:hover,
+.small__title-faded:hover {
+    color: coral;
+}
+
 
 .right__btn {
     font-family: Montserrat;
     font-size: 18px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 24px;
     letter-spacing: 3.6px;
     text-align: center;
@@ -250,6 +256,10 @@ h3 {
 .right__btn:after {
     content: url(../img/small__arrow.png);
     padding-left: 12px;
+}
+
+.right__btn:hover {
+    filter: invert(72%) sepia(25%) saturate(6420%) hue-rotate(326deg) brightness(102%) contrast(102%);
 }
 
 
@@ -297,6 +307,10 @@ h3 {
     background-color: #ffffff;
     margin-left: 80px;
 
+}
+
+.middle__arrow:hover {
+    filter: invert(72%) sepia(25%) saturate(6420%) hue-rotate(326deg) brightness(102%) contrast(102%);
 }
 
 .box__text {
@@ -490,15 +504,20 @@ h3 {
     margin-bottom: 6px;
 }
 
+.sb__content-text {
+    margin-bottom: 20px;
+}
+
 .sb__content-img img {
     object-fit: contain;
     margin-right: 10px;
     display: inline-block;
+
 }
 
 footer {
     padding: 120px 0px 38px;
-    background-color: #ffffff;
+    background-color: #f7f7f7;
 }
 
 .contact__us {
@@ -546,12 +565,12 @@ footer {
     text-transform: uppercase;
 }
 
-.first__info p:hover {
+.first__info a:hover {
     color: coral;
 }
 
 
-.second__info p:hover {
+.second__info a:hover {
     color: coral;
 }
 
@@ -637,27 +656,31 @@ footer {
     justify-content: space-between;
 }
 
-
-.fb:after {
-    content: "\e903";
-    font-family: 'icomoon' !important;
-    color: #6c6c6c;
+.social a:hover {
+    filter: invert(72%) sepia(25%) saturate(6420%) hue-rotate(326deg) brightness(102%) contrast(102%);
 }
 
-.tw:after {
+
+.fb:after {
     content: "\e902";
     font-family: 'icomoon' !important;
     color: #6c6c6c;
 }
 
+.tw:after {
+    content: "\e905";
+    font-family: 'icomoon' !important;
+    color: #6c6c6c;
+}
+
 .google:after {
-    content: "\e904";
+    content: "\e903";
     font-family: 'icomoon' !important;
     color: #6c6c6c;
 }
 
 .pin:after {
-    content: "\e901";
+    content: "\e904";
     font-family: 'icomoon' !important;
     color: #6c6c6c;
 }
@@ -674,5 +697,61 @@ footer {
 }
 
 .contacts__main {
-    
+    padding: 71px 0px 122px;
+}
+
+.contact__box {
+    min-height: 370px;
+    max-width: 370px;
+    border: solid 1px #9c9c9c;
+    text-align: center;
+    opacity: 0.9;
+    padding: 48px 0px 63px;
+}
+
+.textbox__contact {
+    text-align: center;
+    margin: 25px 0px 5px;
+    padding: 0px 50px 0px;
+}
+
+.place__text {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    color: #212121;
+}
+
+.textbox__contact-text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+    color: #6c6c6c;
+}
+
+.textbox__contact-text .text-style-1 {
+    font-weight: bold;
+}
+
+.textbox__contact-text .text-style-2 {
+    font-weight: bold;
+    color: #212121;
+}
+
+.icon-location-pin {
+    font-family: 'icomoon' !important;
+    color: #212121;
+    font-size: 48px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+/* for mobile devices */
+.navigation__btn {
+    display: none;
+    font-size: 28px;
+    padding-right: 20px;
 }
