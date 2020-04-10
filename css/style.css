@@ -207,7 +207,7 @@ h3 {
     background-color: #ffffff;
 }
 
-.second__block-top {
+.flex {
     display: flex;
     justify-content: space-between;
 }
@@ -266,6 +266,7 @@ h3 {
 .second__block-content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .boxes {
@@ -389,6 +390,9 @@ h3 {
 .fourth__block {
     padding: 120px 0px 90px;
     background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .trending__title {
@@ -400,11 +404,6 @@ h3 {
     color: #212121;
     padding-left: 9px;
     padding-right: 20px;
-}
-
-.line {
-    display: flex;
-    justify-content: space-between;
 }
 
 .boxes_1 {

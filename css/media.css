@@ -1,4 +1,4 @@
-@media (max-width: 1066px) {
+@media (max-width: 1134px) {
     .flex {
         display: block;
     }
@@ -7,6 +7,31 @@
         max-width: 80%;
         min-height: 330px;
         margin: 30px auto;
+    }
+
+    .right__btn {
+        margin-top: 30px;
+        padding-left: 12px;
+    }
+
+    .third__block {
+        display: block;
+    }
+
+    .first__chair,
+    .second__chair {
+        width: 100%;
+    }
+
+    .second__block-content {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .fourth__block-content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 }
 
@@ -39,12 +64,21 @@
     .menu li+li {
         padding-left: 0;
     }
+
 }
 
 
 
 
-@media (max-width) {}
+@media (max-width:700px) {
+
+    .first__chair,
+    .second__chair {
+        background-size: contain;
+    }
+
+
+}
 
 @media (max-width) {}
 
