@@ -33,6 +33,10 @@
         justify-content: space-around;
         flex-wrap: wrap;
     }
+
+    .paginations {
+        width: 100%;
+    }
 }
 
 @media (max-width: 830px) {
@@ -68,24 +72,9 @@
 }
 
 
-
-
 @media (max-width:700px) {
 
     .first__chair,
     .second__chair {
         background-size: contain;
     }
-
-
-}
-
-@media (max-width) {}
-
-@media (max-width) {}
-
-@media (max-width) {}
-
-@media (max-width) {}
-
-@media (max-width) {}
