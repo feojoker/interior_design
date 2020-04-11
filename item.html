@@ -21,95 +21,156 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
-  </header>
-
-
-
-
-
-
-
-<!-- 
-
-  <div class="first__block">
     <div class="container">
-      <nav class="navigation navbar navbar-expand-lg">
-        <div class="header__content">
-          <a class="navbar-brand" href="index.html">
-            <img src="img/logo.svg" class="logo" alt="logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="menu navbar-nav mr-auto">
-              <li class="menu__list nav-item">
-                <a class="menu__link nav-link" href="index.html">HOME</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  PRODUCTS
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="menu__link-active nav-link dropdown-item" href="item.html">Fishnet Chair<span
-                      class="sr-only">(current)</span></a>
-                  <a class="dropdown-item nav-link" href="#">Fishnet Table</a>
-                  <a class="dropdown-item nav-link" href="#">Fishnet Fork</a>
-                </div>
-              </li>
-              <li class="menu__list nav-item">
-                <a class="menu__link nav-link" href="history.html">HISTORY</a>
-              </li>
-              <li class="menu__list nav-item">
-                <a class="menu__link nav-link" href="showroom.html">SHOWROOM</a>
-              </li>
-              <li class="menu__list nav-item">
-                <a class="menu__link nav-link" href="contact.html">CONTACT</a>
-              </li>
-            </ul>
-          </div>
+      <nav class="header__content navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.svg" class="logo" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse navigation__wrapper" id="navbarSupportedContent">
+          <ul class="menu navbar-nav mr-auto">
+            <li class="menu__list nav-item"></li>
+            <a class="menu__link" href="index.html">HOME<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="menu__list nav-item dropdown">
+              <a class="menu__link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                PRODUCTS
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item nav-link menu__link" href="#">Fishnet Table</a>
+                <a class="dropdown-item nav-link active" href="#">Fishnet Chair</a>
+                <a class="dropdown-item nav-link menu__link" href="#">Fishnet Fork</a>
+              </div>
+            </li>
+            <li class="menu__list nav-item">
+              <a class="menu__link" href="history.html">HISTORY</a>
+            </li>
+            <li class="menu__list nav-item">
+              <a class="menu__link" href="showroom.html">SHOWROOM</a>
+            </li>
+            <li class="menu__list nav-item magnifier">
+              <a class="menu__link" href="contact.html">CONTACT</a>
+            </li>
         </div>
       </nav>
     </div>
-  </div>
-  </header> -->
+  </header>
+  <main>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active gray" href="#">ALL</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">OFFICE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">FURNITURE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">MODERN </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CLASSIC</a>
+      </li>
+    </ul>
+    <div class="container">
+      <div class="row main__information">
+        <div class="col">
+          <img src="img/slider-1.jpg" alt="Fishnet Chair">
+          <div class="three__images">
+            <img src="img/controll.jpg" alt="">
+            <img src="img/controll-11.jpg" alt="">
+            <img src="img/controll-2.jpg" alt="">
+          </div>
+        </div>
+        <div class="col text__block">
+          <p class="chair__title">Fishnet Chair</p>
+          <p class="color__text red">Hot Deal</p>
+          <p class="price">$ <span>36.7</span>/sq</p>
+          <div class="btn__item"><a href="" class="btn__item-text">Order Us</a></div>
+          <p class="a__lot-text">The majesty of Mountains - Ugmonk style.</p>
+          <p class="a__lot-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore</p>
+          <p class="a__lot-text">
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat.
+          </p>
+          <p class="a__lot-text">
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="fourth__block">
+      <div class="container">
+        <div class="flex">
+          <div class="slider__text">
+            <h3 class="trending__title">Related Products</h3>
+          </div>
+          <a href="#" class="right__btn">explore all</a>
+        </div>
+        <div class="fourth__block-content">
+          <a href="#"><img class="boxes_1" src="img/product-11.jpg" alt=""></a>
+          <a href="#"><img class="boxes_1" src="img/product-21.jpg" alt=""></a>
+          <a href="#"><img class="boxes_1" src="img/product-31.jpg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="flex">
+        <div class="contact__us">
+          <p class="footer__upper-text">Contact Us</p>
+          <p class="contact__us-text">132A Bridge Road Richmond VIC<br>
+            Australia.
+            <br>
+            <br>
+            Talk to us on 1300 132<br>
+            info@interior.com</p>
+
+        </div>
+        <div class="useful__info">
+          <p class="footer__upper-text">Useful Information</p>
+          <div class="first__info">
+            <a href="#">Sales terms</a>
+            <a href="#">Customer care</a>
+            <a href="#">Delivery</a>
+          </div>
+          <div class="second__info">
+            <a href="#">Architect accounts</a>
+            <a href="#">Careers</a>
+            <a href="#">Exchanges & returns</a>
+          </div>
+        </div>
+        <div class="stay__in-touch">
+          <p class="footer__upper-text">Let’s Stay in Touch!</p>
+          <p class="stay__in-touch-text">Suscribe to know about our latest news, products and special
+            offers just for suscribers.</p>
+          <form name="suscribers" action="">
+            <input class="email__subscribe" type="email" placeholder="your email address">
+          </form>
+        </div>
+      </div>
+      <div class="flex">
+        <p class="copy">© Copyright - INTERIOR 2016. All Rights Reserved.</p>
+        <div class="social">
+          <a class="fb" href="#"></a>
+          <a class="tw" href="#"></a>
+          <a class="google" href="#"></a>
+          <a class="pin" href="#"></a>
+        </div>
+        <p class="copy">Terms & Conditions / Privacy policy & Cookies</p>
+      </div>
+    </div>
+  </footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
